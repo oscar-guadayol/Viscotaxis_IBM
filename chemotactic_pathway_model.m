@@ -11,9 +11,8 @@ function [methylationLevel, activity, tumblingProbability] =...
 % Input variables:
 %
 %     methylationLevel is the average methylation level of the receptor.
-%     activity is average activity of the receptor's kinase complex.
-%     aspartateConcentration is the alpha-methyl-aspartate concentration in
-%         microM.
+%     activity is the average activity of the receptor's kinase complex.
+%     aspartateConcentration is the aspartate concentration in microM.
 %     timeStep is the time step in seconds.
 %     meanRunLength is the mean run length in seconds at the adapted state
 %         (i.e. homogeneous nutrient field).
