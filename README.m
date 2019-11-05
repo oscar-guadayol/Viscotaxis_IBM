@@ -1,14 +1,18 @@
-% This is a set of scripts and function that model the behaviour of a
+% This is a set of scripts and functions that model the behaviour of a
 % population of Escherichia coli cells in the presence of a gradient of
 % viscosity and/or of nutrients concentration. The main function is
 % chemotaxis_in_viscous_gradient, which simulates population of individual
 % E. coli cells swimming in a 2D space with a gradient of viscosity and/or
 % of alpha-methyl-aspartate concentration. The response of individual cells
 % to the nutrients is modelled in chemotactic_pathway_model, that codifies
-% the E. coli's chemosensory circuit. the effect of varying viscosity is
+% the E. coli's chemosensory circuit. The effect of varying viscosity is
 % simulated with the ellipsoidal model for rotational and translational
-% friction coefficients (theoretical_friction_coefficients).
-% an example usage of these scripts is presented in 
+% friction coefficients (theoretical_friction_coefficients). an example
+% usage of these scripts is presented in viscosity_and_nutrients_figure.m,
+% which uses data generated from a COMSOL multiphysics simulation
+% (nutrients_and_viscosity.mat) to generate a figure
+% (chemotaxis_with_viscosity.jpg) showing the distribution of bacteria in
+% response to gradients in viscosity and/or aspartate.
 %
 %  Copyright (C) 2019,  Oscar Guadayol <oscar_at_guadayol.cat>
 %
